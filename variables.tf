@@ -27,7 +27,7 @@ variable "common_tags" {
 }
 
 variable "public_cidr_block" {
-  default = ["192.168.1.0/24", "192.168.2.0/24"]
+  default = ["192.168.21.0/24", "192.168.22.0/24"]
 }
 
 variable "private_cidr_block" {
@@ -35,7 +35,7 @@ variable "private_cidr_block" {
 }
 
 variable "database_cidr_block" {
-  default = ["192.168.21.0/24", "192.168.22.0/24"]
+  default = ["192.168.1.0/24", "192.168.2.0/24"]
 }
 
 # variable "public_subnet" {
