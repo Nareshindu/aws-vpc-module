@@ -21,3 +21,7 @@ output "igw" {
 output "info_vpc" {
   value = data.aws_vpc.selected
 }
+
+output "public_subnet_public" {
+  value = aws.subnet.public[*].id
+}
